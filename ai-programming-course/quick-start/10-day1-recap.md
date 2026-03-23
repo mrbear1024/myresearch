@@ -4,7 +4,7 @@
 
 ## 今天你完成了什么
 
-- ✅ 搭建了完整的开发环境（Node.js, VS Code/Cursor, Git）
+- ✅ 搭建了完整的开发环境（Node.js, Claude Code/Codex, VS Code, Git）
 - ✅ 学会了终端/CLI 的基本操作
 - ✅ 掌握了 Git 的最小可用知识（add → commit → push）
 - ✅ 了解了推荐技术栈的每个组件
