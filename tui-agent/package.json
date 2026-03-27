@@ -1,0 +1,30 @@
+{
+  "name": "tui-agent",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "tui-agent": "./dist/index.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@mariozechner/pi-ai": "^0.62.0",
+    "@mariozechner/pi-agent-core": "^0.62.0",
+    "@mariozechner/pi-tui": "^0.62.0",
+    "@sinclair/typebox": "^0.34.41",
+    "chalk": "^5.6.2",
+    "dotenv": "^16.4.7",
+    "minimatch": "^10.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.3",
+    "tsx": "^4.20.3"
+  }
+}
